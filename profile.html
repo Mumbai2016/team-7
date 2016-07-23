@@ -7,7 +7,7 @@
 <!-- Mirrored from seantheme.com/color-admin-v2.0/admin/html/extra_profile.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 08 Jul 2016 09:02:01 GMT -->
 <head>
 	<meta charset="utf-8" />
-	<title>Color Admin | Profile Page</title>
+	<title>DaD | Profile Page</title>
 	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
 	<meta content="" name="description" />
 	<meta content="" name="author" />
@@ -40,7 +40,7 @@
 			<div class="container-fluid">
 				<!-- begin mobile sidebar expand / collapse button -->
 				<div class="navbar-header">
-					<a href="index.html" class="navbar-brand"><span class="navbar-logo"></span> Color Admin</a>
+					<a href="index.html" class="navbar-brand"><span class="navbar-logo"></span> Dream A Dream</a>
 					<button type="button" class="navbar-toggle" data-click="sidebar-toggled">
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
@@ -51,73 +51,8 @@
 				
 				<!-- begin header navigation right -->
 				<ul class="nav navbar-nav navbar-right">
-					<li>
-						<form class="navbar-form full-width">
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Enter keyword" />
-								<button type="submit" class="btn btn-search"><i class="fa fa-search"></i></button>
-							</div>
-						</form>
-					</li>
-					<li class="dropdown">
-						<a href="javascript:;" data-toggle="dropdown" class="dropdown-toggle f-s-14">
-							<i class="fa fa-bell-o"></i>
-							<span class="label">5</span>
-						</a>
-						<ul class="dropdown-menu media-list pull-right animated fadeInDown">
-                            <li class="dropdown-header">Notifications (5)</li>
-                            <li class="media">
-                                <a href="javascript:;">
-                                    <div class="media-left"><i class="fa fa-bug media-object bg-red"></i></div>
-                                    <div class="media-body">
-                                        <h6 class="media-heading">Server Error Reports</h6>
-                                        <div class="text-muted f-s-11">3 minutes ago</div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="media">
-                                <a href="javascript:;">
-                                    <div class="media-left"><img src="assets/img/user-1.jpg" class="media-object" alt="" /></div>
-                                    <div class="media-body">
-                                        <h6 class="media-heading">John Smith</h6>
-                                        <p>Quisque pulvinar tellus sit amet sem scelerisque tincidunt.</p>
-                                        <div class="text-muted f-s-11">25 minutes ago</div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="media">
-                                <a href="javascript:;">
-                                    <div class="media-left"><img src="assets/img/user-2.jpg" class="media-object" alt="" /></div>
-                                    <div class="media-body">
-                                        <h6 class="media-heading">Olivia</h6>
-                                        <p>Quisque pulvinar tellus sit amet sem scelerisque tincidunt.</p>
-                                        <div class="text-muted f-s-11">35 minutes ago</div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="media">
-                                <a href="javascript:;">
-                                    <div class="media-left"><i class="fa fa-plus media-object bg-green"></i></div>
-                                    <div class="media-body">
-                                        <h6 class="media-heading"> New User Registered</h6>
-                                        <div class="text-muted f-s-11">1 hour ago</div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="media">
-                                <a href="javascript:;">
-                                    <div class="media-left"><i class="fa fa-envelope media-object bg-blue"></i></div>
-                                    <div class="media-body">
-                                        <h6 class="media-heading"> New Email From John</h6>
-                                        <div class="text-muted f-s-11">2 hour ago</div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="dropdown-footer text-center">
-                                <a href="javascript:;">View more</a>
-                            </li>
-						</ul>
-					</li>
+					
+					
 					<li class="dropdown navbar-user">
 						<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">
 							<img src="assets/img/user-13.jpg" alt="" /> 
@@ -141,6 +76,42 @@
 		<!-- end #header -->
 		
 		<!-- begin #sidebar -->
+		<div id="sidebar" class="sidebar">
+			<!-- begin sidebar scrollbar -->
+			<div data-scrollbar="true" data-height="100%">
+				<!-- begin sidebar user -->
+				<ul class="nav">
+					<li class="nav-profile">
+						<div class="image">
+							<a href="javascript:;"><img src="assets/img/user-13.jpg" alt="" /></a>
+						</div>
+						<div class="info">
+							Sean Ngu
+							<small>Front end developer</small>
+						</div>
+					</li>
+				</ul>
+				<!-- end sidebar user -->
+				<!-- begin sidebar nav -->
+				<ul class="nav">
+					<li class="nav-header">Navigation</li>
+					
+					<li><a href="calendar.html"><i class="fa fa-calendar"></i> <span>Profile</span></a></li>
+					<li><a href="calendar.html"><i class="fa fa-calendar"></i> <span>Edit Profile</span></a></li>
+					<li><a href="calendar.html"><i class="fa fa-calendar"></i> <span>Add Achievements</span></a></li>
+					<li><a href="calendar.html"><i class="fa fa-calendar"></i> <span>View Workshops</span></a></li>
+							
+						</ul>
+					</li>
+			        <!-- begin sidebar minify button -->
+					<li><a href="javascript:;" class="sidebar-minify-btn" data-click="sidebar-minify"><i class="fa fa-angle-double-left"></i></a></li>
+			        <!-- end sidebar minify button -->
+				</ul>
+				<!-- end sidebar nav -->
+			</div>
+			<!-- end sidebar scrollbar -->
+		</div>
+		<div class="sidebar-bg"></div>
 		<!-- end #sidebar -->
 		
 		<!-- begin #content -->
@@ -181,6 +152,7 @@
                         <div class="profile-info">
                             <!-- begin table -->
                             <div class="table-responsive">
+                            	<form>
                                 <table class="table table-profile">
                                     <thead>
                                         <tr>
@@ -193,54 +165,55 @@
                                     <tbody>
                                         <tr class="highlight">
                                             <td class="field">First Name</td>
-                                            <td><a href="#">Add Mood Message</a></td>
+                                            <!--<td><a href="#">Add Mood Message</a></td>-->
+                                            <td><input type="text" name="first_name"/></td>
                                         </tr>
                                         <tr class="divider">
                                             <td colspan="2"></td>
                                         </tr>
                                         <tr>
                                             <td class="field">Last Name</td>
-                                            <td><i class="fa fa-mobile fa-lg m-r-5"></i> +1-(847)- 367-8924 <a href="#" class="m-l-5">Edit</a></td>
+                                            <td><input type="text" name="last_name"/></td>
                                         </tr>
                                         <tr>
                                             <td class="field">Start Date</td>
-                                            <td><a href="#">Add Number</a></td>
+                                            <td><input type="text" name="st_date"/>/<input type="text" name="st_month"/>/<input type="text" name="st_year"/></td>
                                         </tr>
                                         <tr>
                                             <td class="field">Age</td>
-                                            <td><a href="#">Add Number</a></td>
+                                            <td><input type="text" name="age"/></td>
                                         </tr>
                                         
                                         <tr class="highlight">
                                             <td class="field">Mobile</td>
-                                            <td><a href="#">Add Description</a></td>
+                                            <td><input type="text" name="mobile"/></td>
                                         </tr>
                                         <tr class="divider">
                                             <td colspan="2"></td>
                                         </tr>
                                         <tr>
                                             <td class="field">Father Mobile</td>
-                                            <td><a href="#">Add Number</a></td>
+                                            <td><input type="text" name="father_mobile"/></td>
                                         </tr>
                                         <tr>
                                             <td class="field">Mother Mobile</td>
-                                            <td><a href="#">Add Number</a></td>
+                                            <td><input type="text" name="mother_mobile"/></td>
                                         </tr>
                                         <tr>
                                             <td class="field">Other Mobile</td>
-                                            <td><a href="#">Add Number</a></td>
+                                            <td><input type="text" name="other_mobile"/></td>
                                         </tr>
                                         <tr>
                                             <td class="field">Status before joining</td>
-                                            <td><a href="#">Add Number</a></td>
+                                            <<td><input type="text" name="before_joining"/></td>
                                         </tr>
                                         <tr>
                                             <td class="field">Skills</td>
-                                            <td><a href="#">Add Number</a></td>
+                                            <td><input type="text" name="skills"/></td>
                                         </tr>
                                         <tr>
                                             <td class="field">Curent Status</td>
-                                            <td><a href="#">Add Number</a></td>
+                                            <td><input type="text" name="current_state"/></td>
                                         </tr>
                                         
                                     </tbody>
